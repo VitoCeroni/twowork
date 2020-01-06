@@ -1,0 +1,64 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+.container-fluid {
+	padding: 0;
+	margin: 0;
+}
+
+@media (min-width: 768.98px) and (max-width: 991.98px) {
+	div.good-news input {margin-top: 1%;}
+	div.good-news textarea {margin-top: 1%;}
+	div.logos img {margin-top: 18%; width: 54%;}
+	div.logo-right img {padding-top: 5%;}
+	div.our-story img {width: 27%;}
+	form div.letter input[type="submit"] {margin-left: 0%; width: 16%; height: 29px;}
+}
+
+@media (min-width: 575.98px) and (max-width: 768.98px) {
+	div.our-story img {display: none;}
+	div.good-news input {margin-top: 1%;}
+	div.good-news textarea {margin-top: 1%;}
+	div.logos img {margin-top: 18%; width: 54%;}
+	div.logo-right img {padding-top: 5%;}
+	form div.letter input[type="submit"] {margin-left: 0%; width: 16%; height: 29px;}
+	form div.letter input[type="search"] {border-top: none;}
+}
+
+@media(max-width: 575.98px) {
+	div.our-story img {display: none;}
+	div.good-news input {margin-top: 1%; font-size: 7px;}
+	div.good-news textarea {margin-top: 1%; height: 50px;}
+	div.logos img {margin-top: 18%; width: 54%;}
+	div.logo-right img {padding-top: 5%;}
+	form div.letter input[type="submit"] {margin-left: 0%; width: 16%; height: 14px;}
+	form div.letter input[type="search"] {border-top: none; font-size: 7px;}
+	div.tabble-botton {display: block;}
+	div.tabble-top {display: block;}
+	.tabble-border {border: none;}
+	div.expertise-table p {font-size: calc(0.5rem + 0.83vw);}
+	div.expertise-table h3 {font-size: calc(0.5rem + 0.83vw);}
+	div.baner {padding: 3%;}
+	nav.menu ul.sait-nav {margin-left: -45px;}
+	img#logo {width: calc(0.6rem + 1.08vw);}
+	h1#logo-name {font-size: calc(0.5rem + 1.08vw);}
+	div.our-story h3 {margin: 4px;}
+	div.video-home img.img-fluid {padding-top: 10%;width: 16%;}
+	div.team-tabble {display: block;}
+	div.team-align h4 {font-size: calc(1.0rem + 0.83vw);}
+	div.team-align p {margin-top: -23px;font-size: calc(0.5rem + 0.83vw);}
+	div.team-align img {width: 68%;}
+	div.foot-images {width: 63%;}
+	div.foot-images img {height: 45%;}
+	div.foot-phone img {height: 69%;width: 9%;}
+	div.our-works-images div.top-img {display: block;}
+	div.our-works-images div.bottom-img {display: block;}
+	div.our-works-images div.top-img img {width: 100%;}
+	div.our-works-images div.bottom-img img {width: 100%;}
+	div.this img {width: 8%;}
+	div.adress img {height: 20%;width: 5%;}
+}

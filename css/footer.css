@@ -1,0 +1,122 @@
+div.bcg-footer {
+	background-image: url(../img/bcg-foot.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+div.foot-block {
+	display: flex;
+	font-family: "Roboto Light", sans-serif;
+	color: #fff;
+	letter-spacing: 0.15em;
+	font-size: calc(0.2rem + 0.53vw);
+    line-height: calc(0.2rem + 1.23vw);
+    padding-top: 5%;
+}
+
+div.foot-block h4 {
+	text-transform: uppercase;
+	font-family: "Roboto Black", sans-serif;
+	font-size: calc(0.2rem + 0.83vw);
+}
+
+div.tajam {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+
+div.footer-studio {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	margin: 0 2%;
+}
+
+div.adress img {
+	height: 20%;
+}
+
+
+div.adress {
+	display: flex;
+}
+
+div.adress p {
+	padding-left: 3%;
+	margin-top: 0;
+}
+
+div.foot-phone {
+	display: flex;
+}
+
+div.foot-phone p {
+	padding-left: 3%;
+	margin-top : 0;
+}
+
+div.foot-phone img {
+	height: 40%;
+}
+
+div.stay {
+	display: flex;
+	flex-direction: column;
+	flex:1;
+}
+
+div.foot-images {
+	display: flex;
+	padding-top: 5%;
+}
+
+div.foot-images img {
+	padding-left: 4%
+}
+
+form div.letter input[type="search"] {
+	padding: 3%;
+    background: no-repeat;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-top: 1px solid #8A82A0;
+    border-bottom: 1px solid #8A82A0;
+    width: 77%;
+}
+
+form div.letter input[type="search"]::placeholder {
+
+}
+
+form div.letter input[type="submit"] {
+	background: url(../img/letter.png);
+    cursor: pointer;
+    background-position: center;
+    width: 18%;
+    height: 34px;
+    vertical-align: middle;
+    margin-left: 3%;
+    border: none;
+}
+
+div.foot-bottom  {
+	display: flex;
+	font-family: "Roboto Light", sans-serif;
+	color: #fff;
+	letter-spacing: 0.05em;
+	font-size: calc(0.2rem + 0.33vw);
+    padding-top: 4%;
+    padding-bottom: 1%;
+}
+
+div.foot-bottom p {
+	margin-right: 4%;
+	text-transform: uppercase;
+}
+
+div.foot-bottom p.foot-btm-right {
+	margin-left: auto;
+	margin-right: 0;
+}

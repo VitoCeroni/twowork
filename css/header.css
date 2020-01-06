@@ -1,0 +1,122 @@
+
+div.main-menu {
+	display: flex;
+	position: relative;
+}
+
+div.bcg-header {
+	background-image: url(../img/bcg-header.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+nav.menu {
+	display: flex;
+    align-items: center;
+    margin-left: auto;
+    padding-right: 1.5em;
+}
+
+nav.menu ul.sait-nav {
+	display: flex;
+}
+
+div#logo {
+	display: flex;
+	align-items: center;
+}
+
+img#logo {
+	width: calc(1.2rem + 1.08vw);
+}
+
+h1#logo-name {
+	color: #29869C;
+	margin-left: .4em;
+    font-weight: 100;
+    font-family: "Roboto Thin", sans-serif;
+    font-size: calc(.7rem + 1.08vw);
+}
+
+ul.sait-nav li {
+	list-style-type: none;
+}
+
+ul.sait-nav li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: "Roboto Black", sans-serif;
+	margin-left: 1em;
+	font-weight: bold;
+	font-size: calc(0.1rem + 1.05vw);
+	color: #FBFBFC;
+}
+
+ul.sait-nav li a:hover {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: "Roboto Black", sans-serif;
+	margin-left: 1em;
+	font-weight: bold;
+	font-size: calc(0.1rem + 1.05vw);
+	color: #19A2A4;
+}
+
+div.baner {
+	position: relative;
+	position: relative;
+    display: block;
+    text-align: center;
+    line-height: 1.3em;
+    padding: 11%;
+}
+
+
+div.baner h1 {
+	font-family: "PlayfairDisplay Black";
+	color: #fff;
+	font-size: calc(1.2rem + 1.13vw);
+}
+
+div.baner p {
+	font-family: "Roboto Light", sans-serif;
+	color: #fff;
+	font-size: 14px;
+	display: block;
+	text-align: center;
+	letter-spacing: 0.05em;
+	margin-bottom: 6%;
+	font-size: calc(0.2rem + 1.13vw);
+    line-height: calc(0.2rem + 1.53vw);
+}
+
+div.baner a {
+	font-family: "HammersmithOne Regular", sans-serif;
+	text-transform: uppercase;
+	color: #06C8BE;
+	border: 2px solid #06C8BE;
+	border-radius: 4px;
+	padding: 0.8em;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: calc(0.2rem + 1.13vw)
+}
+
+div.baner a:hover {
+	font-family: "HammersmithOne Regular", sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+	border: 2px solid #fff;
+	border-radius: 4px;
+	padding: 0.8em;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+div.baner hr {
+	color: #06CCC3;
+	width: 50px;
+	border: none;
+	background-color: #06C8BE;
+	height: 2px;
+}
